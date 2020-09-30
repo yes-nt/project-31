@@ -10,7 +10,7 @@ var plinko = [];
 var divisionHeight = 300;
 
 function preload() {
-    backgroundImg = loadImage("bg.png");
+    
 }
 
 function setup(){
@@ -46,7 +46,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background(0,0,0);
     Engine.update(engine);
     ground.display();
     if(frameCount % 60 === 0){
